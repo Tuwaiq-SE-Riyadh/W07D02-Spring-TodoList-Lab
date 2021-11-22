@@ -22,5 +22,5 @@
     * Get: to get all todos 
     * Post: add new todo
     * Put: update todo
-    * Delete: delete a todo list
+    * Delete: delete a todo 
 
