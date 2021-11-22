@@ -17,7 +17,7 @@
 
 
 
-* Create controller class and define the four routes:
+* Create controller class and define the four requests:
 
     * Get: to get all todos 
     * Post: add new todo
