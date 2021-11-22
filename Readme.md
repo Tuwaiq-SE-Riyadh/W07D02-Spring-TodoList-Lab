@@ -6,7 +6,7 @@
     * Two attribute `id` and `name`
     * Constructor, getter and setter (you can generate it using shortcut `command+N` in mac,  `Alt+Insert` in windows). 
 
-<br>
+
 
 * Create service class with four methods 
 
@@ -15,7 +15,7 @@
     * UpdateTodo
     * DeleteTodo
 
-<br>
+
 
 * Create controller class and define the four routes:
 
