@@ -24,4 +24,4 @@
     * Put: update todo
     * Delete: delete a todo 
 
-* use postman to test that your requests work
+* Use postman to test that your requests work
