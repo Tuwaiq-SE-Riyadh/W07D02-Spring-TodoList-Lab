@@ -1,4 +1,4 @@
-# TodoLis App 
+# TodoList App 
 
 ## Create a simple Todo list with CRUD operations
 
