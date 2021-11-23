@@ -11,21 +11,34 @@ public class TodoService {
 //            GetTodo
 //    UpdateTodo
 //            DeleteTodo
-    private List<Todo> products = new ArrayList<Todo>();
+    private List<Todo> todos = new ArrayList<Todo>();
 
     public List<Todo> GetTodo(){
-        return products;
+        return todos;
     }
 
     public Todo AddTodo(Todo todo){
-        products.add(todo);
+        todos.add(todo);
         return todo;
     }
 
-    public String UpdateTodo(String id) {
-        return id;
+    public String UpdateTodo(int id, String name) {
+        for(Todo todo:todos){
+            int compareID =todo.getId();
+            if(compareID==id){
+                todo.setName(name);
+            }
+        }
+        return "updated";
     }
-    public String DeleteTodo(String id) {
-        return id;
+    public String DeleteTodo(int id) {
+        for(Todo todo:todos){
+            int compareID =todo.getId();
+            if(compareID==id){
+                todos.remove(todo);
+                break;
+            }
+        }
+        return "deleted";
     }
 }

@@ -32,12 +32,12 @@ public class Controller {
     }
 
     @PutMapping("/{id}")
-    public String updateTodo(@PathVariable String id){
-        return service.UpdateTodo(id);
+    public String updateTodo(@PathVariable int id, @RequestBody String name){
+        return service.UpdateTodo(id, name);
     }
 
     @DeleteMapping ("/{id}")
-    public String deleteTodo(@PathVariable String id){
-        return service.UpdateTodo(id);
+    public String deleteTodo(@PathVariable int id){
+        return service.DeleteTodo(id);
     }
 }
